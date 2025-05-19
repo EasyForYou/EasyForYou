@@ -1,0 +1,70 @@
+
+.bottom-left {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-top-right-radius: 20px;
+}
+
+.bottom-left img {
+  width: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+.bottom-left p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.custom-link {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 5px;
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: #2196F3;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.custom-link:hover {
+  background-color: #1976D2;
+}
+
+.custom-link .icon {
+  margin-left: 5px;
+  width: 16px;
+  height: 16px;
+}
+
+/* التصميم المتجاوب */
+@media (max-width: 600px) {
+  .bottom-left img {
+    width: 80px;
+  }
+
+  .bottom-left p,
+  .custom-link {
+    font-size: 12px;
+  }
+
+  .custom-link {
+    padding: 5px 10px;
+  }
+
+  .custom-link .icon {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+.yout{
+background-color: rgb(41, 20, 40);
+}

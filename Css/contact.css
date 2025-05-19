@@ -1,0 +1,60 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #111;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-hero {
+  min-height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('https://png.pngtree.com/background/20231016/original/pngtree-blue-office-desk-with-digital-devices-computer-laptop-mobile-phone-and-picture-image_5573213.jpg') center/cover no-repeat;
+  padding-top: 100px;
+}
+
+.contact-hero .logo {
+  width: 300px;
+  height: auto;
+}
+
+.contact-info h4 {
+  color: #00bcd4;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #1a1a1a;
+  padding: 40px 0;
+}
+
+footer h5 {
+  color: #00bcd4;
+}
+
+footer a:hover {
+  color: #00bcd4;
+}
+
+.social-icons i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: white;
+}
+
+.btn-outline-light {
+  border-color: #00bcd4;
+  color: #00bcd4;
+}
+
+.btn-outline-light:hover {
+  background-color: #00bcd4;
+  color: #fff;
+}
+
+.bi {
+  color: aquamarine;
+}
